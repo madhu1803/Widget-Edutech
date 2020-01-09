@@ -18,3 +18,7 @@ body {
 .footer h6 {
     color: #ffcc00;
 }
+
+.navbar-toggler {
+    background-color: white !important;
+}

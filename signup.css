@@ -32,3 +32,7 @@
     color: wheat;
     background: #262626;
 }
+
+.navbar-toggler {
+    background-color: white !important;
+}
