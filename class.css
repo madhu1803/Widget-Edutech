@@ -1,0 +1,20 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.custom-text-white>li>a {
+    color: white !important;
+
+}
+
+.footer {
+
+    margin-top: 2%;
+
+    color: wheat;
+    background: #262626;
+}
+
+.footer h6 {
+    color: #ffcc00;
+}

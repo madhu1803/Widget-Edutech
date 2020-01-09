@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+    <!-- bootstrap link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--CUstom CSS-->
+    <link rel="stylesheet" href="aboutus.css">
+
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!--navbar-->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light " style="background: #262626;color: white;">
+
+        <a class="navbar-brand" href="home.html"><img src="assets/rubexlogo.png" width="60" height="60"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto custom-text-white">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="index.html">Classes</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#" onclick="construct()">Live Classes</a>
+                        <a class="dropdown-item" href="#" onclick="construct()">Animated Classes</a>
+                        <a class="dropdown-item" href="#" onclick="construct()">Self Paced</a>
+                        <a class="dropdown-item" href="#" onclick="construct()">Practice Questions</a>
+                        <a class="dropdown-item" href="#">Doubt Book</a>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="aboutus.html">About Widget Edutech</a>
+                        <a class="dropdown-item" href="#" onclick="construct()">Our Blog</a>
+                        <a class="dropdown-item" href="#" onclick="construct()">Our Satisfied Customers</a>
+                        <a class="dropdown-item" href="contact.html">Contact us</a>
+
+                    </div>
+                </li>
+
+            </ul>
+            <a class="btn btn-outline-success my-2 my-sm-0 mr-1" href="signup.html" role="button">Sign Up</a>
+            <a class="btn btn-outline-success my-2 my-sm-0 mr-1" href="signup.html" role="button">Login</a>
+            <form class="form-inline my-2 my-lg-0">
+
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <!-- section about -->
+
+    <section class="about">
+        <div class="container">
+            <div class="row py-5">
+
+                <div class="col-lg-6 text-center">
+                    <img src="assets/phone.png">
+
+                </div>
+
+                <div class="col-lg-6">
+                    <h1 class="text-center" style="padding-top: 5%;">ABOUT US!</h1>
+                    <p style="padding-top: 5%;text-align: left;" class="text-justify">RUBEX stands for Reliable,
+                        Universal, Blended,
+                        Educational Experience, a
+                        product of Widget
+                        EduTech a
+                        budding
+                        e-learning company with a mission to make learning affordable and accessible to all.
+                        Delivering
+                        the
+                        best
+                        in
+                        class academic content developed by educators from esteemed universities and colleges.
+                    </p>
+                    <div class="text-center w-100">
+                        <button class="btn-success btn-lg mt-4">Know more </button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- <img src="about.jpg" style="padding-top: 20%;"> -->
+
+                    <p style="text-align: left;" class="text-justify mt-5 pt-5">RUBEX stands for Reliable,
+                        We
+                        believe,
+                        that
+                        every child has his own capacity to learn, and so we make learning simplistic goalkeeping
+                        all
+                        the
+                        analytical
+                        and Psychological perspective of Child in mind. We deliver round the clock session using
+                        live
+                        technology,
+                        such that student can learn at their comfort. Started in 2016, Widget EduTech, till now has
+                        delivered to
+                        more than 5000 students across the country and is looking to educate 5 million students by
+                        the
+                        end
+                        of
+                        2022.
+                    </p>
+                    <div class="text-center w-100">
+                        <button class="btn-success btn-lg mt-4">Know more </button>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 text-center ">
+
+                    <img src="assets/phone2.png" class="text-center ">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <div class="row footer pt-5 pb-4">
+        <div class="col-lg-2 text-center text-justify ml-lg-5">
+            <h6>Courses</h6>
+            <p>Customized Courses</p>
+            <br>
+            <p>Self Designed Courses</p>
+            <br>
+            <p>Flash Courses</p>
+            <br>
+            <p>Strength: The Basic Courses</p>
+            <br>
+        </div>
+        <div class="col-lg-2 text-center text-justify">
+            <h6>Exams</h6>
+            <p>Boards</p>
+            <br>
+            <p>JEE</p>
+            <br>
+            <p>NEET</p>
+            <br>
+            <p>BITS</p>
+            <br>
+            <p>JIPMER</p>
+            <br>
+        </div>
+        <div class="col-lg-2 text-center text-justify">
+            <h6>Resources</h6>
+            <p>NCERT</p>
+            <br>
+            <p>Previous Year Paper</p>
+            <br>
+            <p>Sample Paper</p>
+            <br>
+            <p>Blue Prints</p>
+            <br>
+            <p>Strategy</p>
+            <br>
+        </div>
+        <div class="col-lg-2 text-center text-justify">
+            <h6>Contact Us</h6>
+            <img src="assets/mail.png" class="pt-3">
+            <img src="assets/call.png" class="pt-3">
+            <h6 class="pt-5">Social Link</h6>
+            <img src="assets/facebook.png" class="pt-3">
+            <img src="assets/instagram.png" class="pt-3">
+            <img src="assets/linkedin.png" class="pt-3">
+            <img src="assets/skype.png" class="pt-3">
+        </div>
+        <div class="col-lg-2 text-center text-justify">
+            <h6>Download Our App</h6>
+            <div class="">
+                <img src="assets/ps.png" class="pt-3">
+            </div>
+            <h6 class="pt-5">Subscribe for Newsletter</h6>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-warning" type="button">Button</button>
+                </div>
+            </div>
+            <h6>For daily updates of lectures.</h6>
+        </div>
+    </div>
+
+    <!--bootstrap jquery-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

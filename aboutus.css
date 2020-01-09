@@ -1,0 +1,26 @@
+.about {
+    margin-top: 5%;
+
+    line-height: 2em;
+    letter-spacing: 0.2em;
+}
+
+body {
+    background-color: #e2e2e2;
+}
+
+/* footer */
+.footer {
+    margin-top: 2%;
+    color: wheat;
+    background: #262626;
+}
+
+.footer h6 {
+    color: #ffcc00;
+}
+
+.custom-text-white>li>a {
+    color: white !important;
+
+}

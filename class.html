@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Classes</title>
+    <!-- bootstrap link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--CUstom CSS-->
+    <link rel="stylesheet" href="aboutus.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!--navbar-->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background: #262626;">
+
+        <a class="navbar-brand" href="home.html"><img src="assets/rubexlogo.png" width="60" height="60"></a></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto custom-text-white">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="class.html">Classes</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#" onclick="construct()">Live Classes</a>
+                        <a class="dropdown-item" href="#" onclick="construct()">Animated Classes</a>
+                        <a class="dropdown-item" href="#" onclick="construct()">Self Paced</a>
+                        <a class="dropdown-item" href="#" onclick="construct()">Practice Questions</a>
+                        <a class="dropdown-item" href="#" onclick="construct()">Doubt Book</a>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="aboutus.html">About Widget Edutech</a>
+                        <a class="dropdown-item" href="#" onclick="construct()">Our Blog</a>
+                        <a class="dropdown-item" href="#" onclick="construct()">Our Satisfied Customers</a>
+                        <a class="dropdown-item" href="contact.html">Contact us</a>
+
+                    </div>
+                </li>
+
+            </ul>
+            <a class="btn btn-outline-success my-2 my-sm-0 mr-1" href="signup.html" role="button">Sign Up</a>
+            <a class="btn btn-outline-success my-2 my-sm-0 mr-1" href="signup.html" role="button">Login</a>
+            <form class="form-inline my-2 my-lg-0">
+
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- classes -->
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="display-3">CLASSES</h1>
+                <p class="lead">select a class to get started!</p>
+                <form class="forms mt-2">
+
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Classes</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Boards</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>CBSE</option>
+                            <option>ICSE</option>
+                            <option>MATRIC</option>
+                            <option>UBSE</option>
+                            <option>IGCSE</option>
+                        </select>
+                    </div>
+
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <!--subject cards-->
+    <div class="container mt-3 pt-3">
+        <h1 class="display-3 ">Available Subjects</h1>
+        <p class="lead mb-5">select a subject to enroll now!</p>
+        <div class="row">
+
+
+
+            <div class="col-lg-4 text-center text-justify">
+
+                <div class="card mx-auto mb-5" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.oii.ox.ac.uk/wp-content/uploads/2019/06/Laptop-image.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Computer Science</h5>
+                        <p class="card-text">Start learning from basics to advanced by experienced instructors.</p>
+                        <a href="#" class="btn btn-primary">Enroll now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-justify">
+                <div class="card mx-auto  mb-5" style="width: 18rem;">
+                    <img class="card-img-top" src="science.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Science</h5>
+                        <p class="card-text">Start learning from basics to advanced by experienced instructors.</p>
+                        <a href="#" class="btn btn-primary">Enroll now</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-justify">
+                <div class="card mx-auto  mb-5" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4488%252C2525%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C900%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-06%252Fad5ed8b0-996d-11e9-8beb-2ee08ac7ac1d%26client%3Da1acac3e1b3290917d92%26signature%3Df245a7606c708ab449b9700a0fd9fb9f28723ffe&client=amp-blogside-v2&signature=ee28d12b44fdd9ffb859951f35063da83dcf7bea"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Social Science</h5>
+                        <p class="card-text">Start learning from basics to advanced by experienced instructors.</p>
+                        <a href="#" class="btn btn-primary">Enroll now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-justify">
+                <div class="card mx-auto  mb-5" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://c.saavncdn.com/524/Glitter-English-2018-20180321234253-500x500.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">English</h5>
+                        <p class="card-text">Start learning from basics to advanced by experienced instructors.</p>
+                        <a href="#" class="btn btn-primary">Enroll now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 pt-3 text-center text-justify">
+                <div class="card mx-auto  mb-5" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://i1.wp.com/www.aplustopper.com/wp-content/uploads/2019/06/Maths.png?fit=560%2C315&ssl=1"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Maths</h5>
+                        <p class="card-text">Start learning from basics to advanced by experienced instructors.</p>
+                        <a href="#" class="btn btn-primary">Enroll now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-justify">
+                <div class="card mx-auto  mb-5" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://libraryeuroparl.files.wordpress.com/2017/09/eprs-aag-608700-celebrating-european-day-of-languages-final.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Languages</h5>
+                        <p class="card-text">Start learning from basics to advanced by experienced instructors.</p>
+                        <a href="#" class="btn btn-primary">Enroll now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="row footer pt-5 pb-4">
+        <div class="col-lg-2 text-center text-justify ml-lg-5">
+            <h6>Courses</h6>
+            <p>Customized Courses</p>
+            <br>
+            <p>Self Designed Courses</p>
+            <br>
+            <p>Flash Courses</p>
+            <br>
+            <p>Strength: The Basic Courses</p>
+            <br>
+        </div>
+        <div class="col-lg-2 text-center text-justify">
+            <h6>Exams</h6>
+            <p>Boards</p>
+            <br>
+            <p>JEE</p>
+            <br>
+            <p>NEET</p>
+            <br>
+            <p>BITS</p>
+            <br>
+            <p>JIPMER</p>
+            <br>
+        </div>
+        <div class="col-lg-2 text-center text-justify">
+            <h6>Resources</h6>
+            <p>NCERT</p>
+            <br>
+            <p>Previous Year Paper</p>
+            <br>
+            <p>Sample Paper</p>
+            <br>
+            <p>Blue Prints</p>
+            <br>
+            <p>Strategy</p>
+            <br>
+        </div>
+        <div class="col-lg-2 text-center text-justify">
+            <h6>Contact Us</h6>
+            <img src="assets/mail.png" class="pt-3">
+            <img src="assets/call.png" class="pt-3">
+            <h6 class="pt-5">Social Link</h6>
+            <img src="assets/facebook.png" class="pt-3">
+            <img src="assets/instagram.png" class="pt-3">
+            <img src="assets/linkedin.png" class="pt-3">
+            <img src="assets/skype.png" class="pt-3">
+        </div>
+        <div class="col-lg-2 text-center text-justify">
+            <h6>Download Our App</h6>
+            <div class="">
+                <img src="assets/ps.png" class="pt-3">
+            </div>
+            <h6 class="pt-5">Subscribe for Newsletter</h6>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-warning" type="button">Button</button>
+                </div>
+            </div>
+            <h6>For daily updates of lectures.</h6>
+        </div>
+    </div>
+
+    <!--bootstrap jquery-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

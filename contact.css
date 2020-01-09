@@ -1,0 +1,17 @@
+body {
+    background: #e2e2e2;
+}
+
+.contact {}
+
+footer {
+    margin-top: 2%;
+    color: wheat;
+    background: #262626;
+}
+
+/* form */
+.custom-text-white>li>a {
+    color: white !important;
+
+}
